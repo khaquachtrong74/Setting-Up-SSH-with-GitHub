@@ -1,0 +1,64 @@
+article {
+    width: 95%;
+    margin: auto;
+    
+}
+body{
+    background: linear-gradient(157deg,
+    rgba(71, 49, 49, 0.562),rgb(169, 167, 167),rgb(129, 127, 127),rgba(123, 123, 123, 0.255), 
+    rgb(234, 231, 231)
+    );
+}
+/* .box {
+    max-width: 1500px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 97%;
+
+} */
+
+article {
+    background-color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid black;
+}
+
+.box:hover {
+    border-color: black;
+}
+
+.scroll-bar {
+    overflow: auto;
+    scrollbar-gutter: stable both-edges;
+}
+
+.scroll-bar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+/* go to top */
+.goto-top {
+    position: fixed;
+    right: 0;
+    top: 90%;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: grey;
+    color: white;
+    display: none;
+}

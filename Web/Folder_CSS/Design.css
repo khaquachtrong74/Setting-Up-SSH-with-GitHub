@@ -1,0 +1,113 @@
+/* 
+    * là một universal selector chọn tất cả các phần tử trên trang web
+    hay là một cách dùng để đặt giá trị mặc định và áp dụng một số quy 
+    tắc chung cho toàn bộ trang.
+*/
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color:#333;    
+    
+}
+/* article{
+    border:1px solid red;
+} */
+div.line{
+    border-top:1px solid black;
+    width:100%;
+    margin-bottom:10px;
+    transform: translateX();
+}
+h2{
+    display: inline-block;
+}
+h2+article{
+    text-align: end;
+}
+/* Design header */
+header h1{
+    text-align: center;
+    block-size: 100px;
+    line-height: 100px;
+}
+header button:focus~div.infomation{
+    display: flex;
+}
+header div.infomation{
+    
+    height:200px;
+
+}
+header div.infomation>div.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:100%;
+    width: 20%;
+    margin-right:auto;
+}
+header div.infomation>div.info:first-child{
+    width:15%;
+    margin-right:10%;
+    background-image: url("../images/445821785_771195001748095_5520025152150782040_n.jpg");
+    background-size: cover;
+}
+header div.infomation{
+    display: none;
+    margin:10px 0px;
+    
+}
+header h4>span:last-child{
+    padding-left: 20px;
+    padding-right:auto;
+}
+header h4>span:first-child{
+    text-align: start !important;
+}
+
+/* header h1:hover~h4{
+    display: block;
+} */
+
+/* Design main */
+main{
+    margin:20px;
+}
+
+main article p{
+    margin-top:5px;
+}
+main section{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+main ol{
+    list-style-type: none;
+}
+main section#skills>div.valid{
+     
+    font-size: 20px;
+}
+main section#roadmap h1{
+    text-align: center;
+    margin-bottom:10px;
+}
+main section#roadmap div.map{
+    margin-top:10px;
+    background-image: url("../images/Screenshot\ 2024-10-22\ 020216.png");
+     width: 55%;
+     background-size: cover;
+     height:420px;
+     margin:auto;
+}
+
+/* Design footer */
+footer{
+    text-align: center;
+}
+

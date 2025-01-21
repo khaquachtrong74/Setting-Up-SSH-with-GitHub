@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/MyExecutable.dir/main.cpp.o -o MyExecutable 
