@@ -1,5 +1,10 @@
 # Các bước để push code thông qua terminal
+Nguồn tham khảo: {
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+,
+https://stackoverflow.com/questions/72760526/github-error-key-is-invalid-you-must-supply-a-key-in-openssh-public-key-forma
 
+}
 1. Vì thông qua linux (nói chung) thì github không còn hỗ trợ cho việc dùng URL nữa (13 tháng 8 năm 2021, github đã loại bỏ hỗ trợ xác thực mật khẩu) (Thật ra cái này không chắc nhưng vì làm quá phức tạp và không thành công). Cho nên ta sẽ hướng tới việc dùng ssh thay vì url
 
 2. Ta mở terminal và gõ
@@ -10,11 +15,12 @@ ssh-keygen -t ed25519 -C "your_Email@example.com"
 ``` Sh
 ssh-keygen -t rsa -b 4096 -C "Your_email@example.com" 
 ```
-3. Nó sẽ tạo ra SSH key, bước tới cứ ấn Enter cho next qua cũng được. Có thể tham khảo qua : 
+3. Nó sẽ tạo ra SSH key, bước tới cứ ấn Enter cho next qua cũng được. Có thể tham khảo qua nguồn 1.
 
-4. Lúc này ta vào trang github của mình, vào settings -> "SSH and GPG keys". Chọn New SSH key.
 
-5. Quay lại với terminal, vì bước này khá nhiều người bị lỗi (mình thì quằn chỗ này gần 1 tiếng). Để tránh việc bị nhầm thì thường SSH key sau khi được tạo ra sẽ nằm tại ~/.ssh/nameYourKey.pub (pub ở đây là public - và mình sẽ cần nó). 
+5. Lúc này ta vào trang github của mình, vào settings -> "SSH and GPG keys". Chọn New SSH key.
+
+6. Quay lại với terminal, vì bước này khá nhiều người bị lỗi (mình thì quằn chỗ này gần 1 tiếng). Để tránh việc bị nhầm thì thường SSH key sau khi được tạo ra sẽ nằm tại ~/.ssh/nameYourKey.pub (pub ở đây là public - và mình sẽ cần nó). 
 ```Sh
 cat ~/.ssh/nameYourKey.pub
 ```
