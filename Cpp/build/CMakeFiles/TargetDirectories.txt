@@ -1,3 +1,0 @@
-/home/khaquachtrong74/Folder_cpp/build/CMakeFiles/MyExecutable.dir
-/home/khaquachtrong74/Folder_cpp/build/CMakeFiles/edit_cache.dir
-/home/khaquachtrong74/Folder_cpp/build/CMakeFiles/rebuild_cache.dir

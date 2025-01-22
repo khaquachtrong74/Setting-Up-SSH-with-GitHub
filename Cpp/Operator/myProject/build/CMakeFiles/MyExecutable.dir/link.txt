@@ -1,1 +1,0 @@
-/home/khaquachtrong74/.nix-profile/bin/c++ CMakeFiles/MyExecutable.dir/main.cpp.o -o MyExecutable 

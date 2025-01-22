@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/khaquachtrong74/Folder_cpp/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/MyExecutable.dir/main.cpp.o -c /home/khaquachtrong74/Folder_cpp/Operator/myProject/main.cpp",
-  "file": "/home/khaquachtrong74/Folder_cpp/Operator/myProject/main.cpp"
-}
-]

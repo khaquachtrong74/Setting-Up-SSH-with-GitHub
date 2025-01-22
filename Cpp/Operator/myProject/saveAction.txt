@@ -1,8 +1,0 @@
-Operations logged here
-Created process: filTest.txt
-Listed all processes
-Created process: hoho
-Listed all processes
-Created and wrote to file: test.txt
-Created process: kha
-Listed all processes
