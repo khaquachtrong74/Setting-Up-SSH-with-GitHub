@@ -13,3 +13,4 @@ set(CMAKE_CXX_STANDARD 11)
 # Tạo tệp thực thi mới là MP
 # add_executable(MP src/main.cpp)
 
+add_subdirectory(as)
