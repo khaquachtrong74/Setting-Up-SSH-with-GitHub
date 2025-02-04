@@ -11,18 +11,19 @@ SRC = main.cpp array.cpp
 OBJ = $(SRC:.cpp=.o)
 
 # Luật mặc định khi gõ 'make'
-all: $(TARGET)
+all: $(TARGET) rm -f main.o array.o
 
 # Luật để liên kết các file object thành file thực thi
 $(TARGET): $(OBJ)
-
 	$(CXX) $(CXXFLAGS) -o $@ $^
-
+	@rm -f $(OBJ)
+	
 # Luật biên dịch từng file .cpp thành .o
 %.o: %.cpp array.h
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 # Lệnh dọn dẹp file biên dịch tạm thời
+.PHONY: clean 
 clean:
 	rm -f $(OBJ) $(TARGET)
 
