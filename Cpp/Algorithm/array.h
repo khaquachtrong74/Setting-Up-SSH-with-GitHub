@@ -1,10 +1,6 @@
 #ifndef ARRAY_H
 #define ARRAY_H
-#include<iostream>
-#include<string>
-#include<regex> // for c++, regex.h for c
-using namespace std;
-
+#include "main.h"
 static int dem=0;
 // We have arrays int not sort.
 struct ARR{

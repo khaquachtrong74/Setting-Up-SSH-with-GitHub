@@ -1,0 +1,13 @@
+Chia
+Làm thế nào để chia?
+	Ta đã có cách lấy được vị trí ở giữa
+	Có hàm tăng trái
+	Có hàm giảm phải
+Ta sẽ làm bằng cách nào?
+Chia tới khi nào?
+	Chia tới khi chỉ còn 1 phần tử
+Sau đó ta làm gì?
+	Ta so sánh các phần tử liền kề
+Sau đó thì sao?
+	Ta nạp chúng vào mảng nhỏ
+
