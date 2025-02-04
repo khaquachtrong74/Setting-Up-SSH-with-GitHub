@@ -3,12 +3,16 @@
 #include "main.h"
 static int dem=0;
 // We have arrays int not sort.
-struct ARR{
+class ARR{
+private:
 	int size;
 	int *mang;
+public:
 	ARR(int size);
 	ARR();
 	~ARR();
+	int getSize();
+	int* getPtrMang();
 	void push(int x);
 	void input(string s);
 	void output();

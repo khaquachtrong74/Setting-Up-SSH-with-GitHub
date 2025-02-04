@@ -8,9 +8,12 @@
  * Conquer: Mergers the small pieces of the array back together
  * by putting the lowest values first, resulting in a sorted array.
  * */
+
 void incLeft(int& left);
 void decRight(int& right);
 int getMid(int left, int right);
-void divide(int* mang, int size);
+void showSubArr(int* mang, int left, int right);
+void merge(int* mang, int left, int right, int mid);
+void mergeAndSort(int* mang, int left, int right);
 #endif
 

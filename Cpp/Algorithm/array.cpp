@@ -13,6 +13,12 @@ ARR::ARR() : size(0){}
 ARR::~ARR(){
 	delete[] this->mang;
 }
+int ARR::getSize(){
+	return this->size;
+}
+int* ARR::getPtrMang(){
+	return this->mang;
+}
 void ARR::push(int x){
 	if(dem < this->size){
 		this->mang[dem++] = x;
