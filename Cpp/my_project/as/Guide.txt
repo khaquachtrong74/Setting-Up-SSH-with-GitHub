@@ -1,4 +1,0 @@
-File tutorial: ./as/src/Guid.txt
-cd to as/build and use the code 
-cmake .. && make
-Next, you just call ./nameFileExcute to run your code

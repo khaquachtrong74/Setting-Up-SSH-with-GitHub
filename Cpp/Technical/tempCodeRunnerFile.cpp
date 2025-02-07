@@ -1,1 +1,0 @@
-matrix.resize(0, vector<int>(0, 0));
