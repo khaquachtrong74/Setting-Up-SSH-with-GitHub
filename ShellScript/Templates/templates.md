@@ -1,3 +1,0 @@
-#{{title}}
-
-Created on {{date}}
